@@ -1,0 +1,33 @@
+# Python-specific
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# FastAPI/Uvicorn logs
+*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.DS_Store
+Thumbs.db
+*.swp
+*.bak
+*.tmp
